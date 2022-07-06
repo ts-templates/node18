@@ -1,0 +1,31 @@
+{
+  "name": "@ts-templates/node18",
+  "version": "0.1.0",
+  "description": "Template for TypeScript project using Node.js v18",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rimraf dist",
+    "lint": "eslint '**/*.{js,ts}'",
+    "prebuild": "npm run clean",
+    "start": "ts-node src/main.ts",
+    "test": "jest --passWithNoTests"
+  },
+  "engines": {
+    "node": "18.0.0"
+  },
+  "devDependencies": {
+    "@jest/types": "28.1.1",
+    "@tsconfig/node18": "1.0.1",
+    "@types/jest": "28.1.3",
+    "@types/node": "18.0.3",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "jest": "28.1.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.8.2",
+    "typescript": "4.7.4"
+  },
+  "license": "MIT"
+}
