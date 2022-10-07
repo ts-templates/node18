@@ -4,7 +4,7 @@ Template for TypeScript project using Node.js v18
 
 ## Features
 
-- [ESLint](https://eslint.org/) with [JavaScript Standard Style](https://standardjs.com/)
+- [ESLint](https://eslint.org/) with [ESLint Recommended](https://github.com/eslint-recommended)
   - Run on Pull request by GitHub Actions
 - Test by [Jest](https://jestjs.io/)
   - Run on Pull request by GitHub Actions
