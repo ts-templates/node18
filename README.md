@@ -36,6 +36,9 @@ npm run clean
 # Run linters
 npm run lint
 
+# Fix codes by linters
+npm run lint:fix
+
 # Run main.ts
 npm start
 
