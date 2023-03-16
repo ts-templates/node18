@@ -16,7 +16,7 @@
     "node": "18.0.0"
   },
   "devDependencies": {
-    "@eslint-recommended/eslint-config-typescript": "16.0.1",
+    "@eslint-recommended/eslint-config-typescript": "17.0.0",
     "@tsconfig/node18": "1.0.1",
     "@types/node": "18.0.6",
     "eslint": "8.35.0",
