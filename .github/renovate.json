@@ -2,11 +2,6 @@
   "extends": [
     "github>ts-templates/renovate-config"
   ],
-  "force": {
-    "constraints": {
-      "node": "18.16.0"
-    }
-  },
   "labels": ["renovate"],
   "packageRules": [
     {
