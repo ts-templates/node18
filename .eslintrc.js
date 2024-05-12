@@ -18,7 +18,7 @@ const config = {
   overrides: [
     // https://typescript-eslint.io/troubleshooting/#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file
     {
-      files: ['./**/*.js'],
+      files: ['./**/*.{js,mjs,cjs,jsx}'],
       extends: ['plugin:@typescript-eslint/disable-type-checked']
     }
   ]
