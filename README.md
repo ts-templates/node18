@@ -11,7 +11,7 @@ Template for TypeScript project using Node.js v18
 
 - [ESLint](https://eslint.org/) with [ESLint Recommended](https://github.com/eslint-recommended)
   - Run on Pull request by GitHub Actions
-- Test by [Jest](https://jestjs.io/)
+- Test by [Node.js's test runner](https://nodejs.org/api/test.html)
   - Run on Pull request by GitHub Actions
 - Manage Node.js version by [nvm](https://github.com/nvm-sh/nvm)
 - Manage dependency updates by [Renovate](https://renovatebot.com/)
