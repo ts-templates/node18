@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "clean": "rimraf dist",
-    "lint": "eslint '**/*.{js,ts}'",
+    "lint": "eslint --ignore-path .gitignore '**/*.{js,cjs,mjs,ts,cts,mts}'",
     "prebuild": "npm run clean",
     "start": "tsx src/main.ts",
     "test": "glob -c 'node --test --require tsx/cjs' 'src/**/*.test.ts'"
