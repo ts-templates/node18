@@ -9,7 +9,7 @@
     "lint": "eslint '**/*.{js,ts}'",
     "prebuild": "npm run clean",
     "start": "tsx src/main.ts",
-    "test": "glob -c 'tsx --test' 'src/**/*.test.ts'"
+    "test": "glob -c 'node --test --require tsx/cjs' 'src/**/*.test.ts'"
   },
   "engines": {
     "node": "18.18.2"
