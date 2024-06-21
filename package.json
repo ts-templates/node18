@@ -22,7 +22,7 @@
     "glob": "10.4.1",
     "rimraf": "5.0.7",
     "tsx": "4.15.7",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "license": "MIT"
 }
