@@ -11,6 +11,10 @@
     {
       "matchPackageNames": ["node"],
       "allowedVersions": "<19"
+    },
+    {
+      "matchPackageNames": ["rimraf"],
+      "allowedVersions": "<6"
     }
   ]
 }
