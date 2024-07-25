@@ -9,6 +9,10 @@
       "allowedVersions": "<19"
     },
     {
+      "matchPackageNames": ["glob"],
+      "allowedVersions": "<11"
+    },
+    {
       "matchPackageNames": ["node"],
       "allowedVersions": "<19"
     },
