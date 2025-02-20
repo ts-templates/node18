@@ -12,7 +12,7 @@
     "test": "glob -c 'node --test --require tsx/cjs' 'src/**/*.test.ts'"
   },
   "engines": {
-    "node": "18.18.2"
+    "node": "18.20.7"
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config-typescript": "50.1.0",
