@@ -12,12 +12,12 @@
     "test": "glob -c 'node --test --require tsx/cjs' 'src/**/*.test.ts'"
   },
   "engines": {
-    "node": "18.18.2"
+    "node": "18.20.8"
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config-typescript": "50.1.0",
     "@tsconfig/node18": "18.2.4",
-    "@types/node": "18.18.14",
+    "@types/node": "18.19.86",
     "eslint": "8.57.1",
     "glob": "10.4.5",
     "rimraf": "5.0.10",
